@@ -28,3 +28,5 @@ jobs:
           push: true
           tags: hanif040/food-backend:latest
           no-cache: true
+          build-args: |
+            CI=true
